@@ -1,17 +1,15 @@
-﻿using Domain.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Domain.Entities
+namespace Application.DTOs
 {
-    public class Customer : BaseEntity
+    public class CustomerDto
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public int Phone { get; set; }
         public string Address { get; set; }
         public string Mail { get; set; }
-        public List<Pet> Pets { get; set; }
     }
 }

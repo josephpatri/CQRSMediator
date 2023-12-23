@@ -14,9 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Features\Customers\Queries\GetAll\" />
-    <Folder Include="Features\Customers\Queries\GetById\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 

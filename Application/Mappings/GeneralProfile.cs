@@ -1,4 +1,5 @@
-﻿using Application.Features.Customers.Commands.Create;
+﻿using Application.DTOs;
+using Application.Features.Customers.Commands.Create;
 using Application.Features.Customers.Commands.Update;
 using AutoMapper;
 using Domain.Entities;
@@ -16,6 +17,12 @@ namespace Application.Mappings
 
             CreateMap<CreateCustomer, Customer>();
             CreateMap<UpdateCustomer, Customer>();
+
+            #endregion
+
+            #region Queries
+
+            CreateMap<Customer, CustomerDto>();
 
             #endregion
         }

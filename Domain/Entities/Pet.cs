@@ -25,5 +25,8 @@ namespace Domain.Entities
                 return this._age;
             }
         }
+
+        public int CustomerId { get; set; }
+        public Customer Customer { get; set; }
     }
 }
